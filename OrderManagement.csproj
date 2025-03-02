@@ -18,4 +18,9 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\OrderEntities\Entities.csproj" />
+    <ProjectReference Include="..\OrderRepository\OrderRepository.csproj" />
+  </ItemGroup>
+
 </Project>
