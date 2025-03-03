@@ -64,8 +64,8 @@ namespace OrderManagement.Controllers
             }
         }
 
-        [HttpPost]
-        public async Task<ActionResult<Order>> UpdateOrder(Order order)
+        [HttpPut("{id}")]
+        public async Task<ActionResult<Order>> UpdateOrder(int id, Order order)
         {
             try
             {
